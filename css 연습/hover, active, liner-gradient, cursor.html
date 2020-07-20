@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>버튼누르면 바뀐다</title>
+    <style>
+      p {
+
+        border-style : solid;
+        border-color : orange;
+        color : blue;
+        font-size: 20px;
+
+      }
+      div.box {
+      float: left;
+  　　border: 20px solid #fc0082;
+  　　box-sizing: border-box;
+      margin: 20px;
+      text-align: center;
+      }
+
+      #box1 {
+          border-radius: 10px 10px 10px 10px;
+      }
+
+      #box1:hover {
+        background :linear-gradient(orange,yellow,green)
+      }
+
+      #box1:active {
+        background : linear-gradient(blue,red,yellow)
+      }
+
+
+    </style>
+  </head>
+  <body>
+<div class="box">
+    
+    <p id="box1" style="cursor: crosshair">HTML</p>
+    <p id="box1" style="cursor: help">CSS</p>
+    <p id="box1" style="cursor: pointer">HTML5</p>
+    <p id="box1" style="cursor: progress">Java Script</p>
+    <p id="box1" style="cursor: n-resize">SQL</p>
+    <p id="box1" style="cursor: text">JSP</p>
+</div>
+
+  </body>
+</html>

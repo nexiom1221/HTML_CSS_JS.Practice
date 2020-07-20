@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>그림테두리</title>
+
+    <style>
+
+      p {
+        padding :20px;
+
+        border: 5px;
+
+        margin: 10px;
+      }
+    #round1 {border-radius : 50px; border-style:dotted; border-color:red;}
+    #round2 {border-radius : 0px 20px 40px 60px; border-style:solid; border-color:green;}
+    #round3 {border-radius : 0px 20px; border-style:dashed; border-color:purple;}
+    #round4 {border-radius : 0px 20px 40px; border-style:double; border-color: yellow;}
+    </style>
+  </head>
+
+
+  <body>
+  <table>
+    <tr>
+    <td><p id="round1"><img src="C:\Users\nexio\OneDrive\Desktop\html\cat.png" alt="냥냥이"></p></td>
+    <td><p id="round2"><img src="C:\Users\nexio\OneDrive\Desktop\html\cat.png" alt="냥냥이"></p></td>
+    </tr>
+    <tr>
+    <td><p id="round3"><img src="C:\Users\nexio\OneDrive\Desktop\html\cat.png" alt="냥냥이"></p></td>
+    <td><p id="round4" style="border: inset yellow"><img src="C:\Users\nexio\OneDrive\Desktop\html\cat.png" alt="냥냥이"></p></td>
+    </tr>
+  </table>
+
+  </body>
+</html>
