@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>로그인</title>
+    <style>
+      table {
+        width: 80%;
+      	height: 100%;
+        text-align=center;
+        margin:auto;
+      }
+      td {
+
+
+      }
+      tbody tr:nth-child(2n) {
+        background-color : #bbdefb;
+      }
+      tbody tr:nth-child(2n+1){
+        background-color: #e3f2fd;
+      }
+    </style>
+  </head>
+  <body>
+    <center><h1>회원가입</h1></center>
+  <form>
+  <table>
+    <tbody>
+
+
+    <tr>
+      <td>아이디</td>
+      <td>  <input id='userid' type='text' maxlength="12" placeholder="아이디"/>  영문,숫자로만 4~12자<br/></td>
+    </tr>
+    <tr>
+      <td>비밀번호</td>
+      <td><input id='userpw' type='password' maxlength="15"/>  영문,숫자,특수문자 조합 6~15자<br/></td>
+    </tr>
+    <tr>
+      <td>비밀번호확인</td>
+      <td><input id='rpw' type='password' maxlength="15"/><br/></td>
+    </tr>
+    <tr>
+      <td>좋아하는 색</td>
+      <td><input type="color" value="black>"</td>
+    </tr>
+    <tr>
+      <td>생년월일</td>
+      <td><input type="date" value="2020-07-15"</td>
+    </tr>
+    <tr>
+      <td>이메일 주소</td>
+      <td><input id='rpw' type='password' maxlength="15"/> ex)hong@naver.com<br/></td>
+    </tr>
+    <tr>
+      <td>자기 소개</td>
+      <td><textarea cols="40" rows="5"></textarea></td>
+    </tr>
+
+    </tbody>
+  </table>
+  </form>
+
+  <center><input type="submit" name="submit" value="확인"/ ></center>
+  <center><input type="reset" name="reset" value="취소"/ ></center>
+  </body>
+</html>
